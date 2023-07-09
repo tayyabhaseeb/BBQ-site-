@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+}
+.container-one {
+  width: 50%;
+  min-height: 100vh;
+  background: #b7401cff url("images/bbq.jpg");
+  background-size: cover;
+  color: #e7870eff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.outline {
+  border-top: 5px solid #e7870eff;
+}
+.middle-text {
+  color: white;
+  font-size: 5vw;
+  text-shadow: 2px 2px #e7870eff;
+  text-align: center;
+}
+.bold {
+  font-weight: bolder;
+}
+.container-two {
+  /* background-color: aqua; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  max-width: 500px;
+  text-align: center;
+  padding: 1.87rem;
+  line-height: 1.35;
+}
+.align-left {
+  text-align: left;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  margin: 0.625rem 0;
+  text-align: center;
+  font: inherit;
+  padding: 0.625rem 0;
+  border-radius: 0.31rem;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border: 1px solid #e7870eff;
+}
+
+.btn {
+  background-color: #e7870eff;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+.register-text {
+  color: #e7870eff;
+  margin-bottom: 1rem;
+}
+
+/* Media Styles */
+
+@media (max-width: 765px) {
+  body {
+    flex-direction: column;
+  }
+
+  .container-one,
+  .container-two {
+    width: 100%;
+  }
+  .container-one {
+    text-align: center;
+    max-height: 200px;
+    padding: 0 10px;
+  }
+  .container-one {
+    margin-bottom: 2rem;
+  }
+}
