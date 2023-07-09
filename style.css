@@ -90,7 +90,7 @@ body {
   }
   .container-one {
     text-align: center;
-    max-height: 200px;
+    min-height: 250px;
     padding: 0 10px;
   }
   .container-one {
